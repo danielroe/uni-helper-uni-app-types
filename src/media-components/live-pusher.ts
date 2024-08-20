@@ -880,7 +880,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 实时音视频录制（直播推流） */
     LivePusher: _LivePusher;

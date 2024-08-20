@@ -90,7 +90,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 自定义 tabBar 组件 */
     CustomTabBar: _CustomTabBar;

@@ -296,7 +296,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 页面跳转组件

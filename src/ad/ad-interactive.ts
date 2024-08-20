@@ -71,7 +71,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 互动广告 */
     AdInteractive: _AdInteractive;

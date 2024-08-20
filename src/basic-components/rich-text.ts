@@ -110,7 +110,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 富文本 */
     RichText: _RichText;

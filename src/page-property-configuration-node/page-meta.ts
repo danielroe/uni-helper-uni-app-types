@@ -153,7 +153,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 页面属性配置节点，用于指定页面的一些属性、监听页面事件

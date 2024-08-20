@@ -307,7 +307,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 可滚动视图区域，用于区域滚动

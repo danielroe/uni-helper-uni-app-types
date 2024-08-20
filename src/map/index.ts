@@ -908,7 +908,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 地图组件，用于展示地图 */
     Map: _Map;

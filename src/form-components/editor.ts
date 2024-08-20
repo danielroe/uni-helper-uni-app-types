@@ -165,7 +165,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 富文本编辑器，可以对图片、文字进行编辑和混排

@@ -63,7 +63,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 单选项目 */
     Radio: _Radio;

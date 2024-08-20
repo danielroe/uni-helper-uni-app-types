@@ -268,7 +268,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 页面导航条配置节点，用于指定导航栏的一些属性

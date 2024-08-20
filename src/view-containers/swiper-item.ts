@@ -37,7 +37,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * Swiper 直接子组件，宽高自动设置为父组件的 100%

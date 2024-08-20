@@ -69,7 +69,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 沉浸视频流广告 */
     AdDraw: _AdDraw;

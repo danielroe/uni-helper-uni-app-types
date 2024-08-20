@@ -69,7 +69,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 视图容器，和 div 类似，用于包裹各种元素内容

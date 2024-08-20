@@ -107,7 +107,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 嵌入页面的滚动选择器，比 picker 更灵活 */
     PickerView: _PickerView;

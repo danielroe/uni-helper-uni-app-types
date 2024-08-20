@@ -260,7 +260,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 页面内嵌的区域相机组件 */
     Camera: _Camera;

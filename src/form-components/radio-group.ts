@@ -58,7 +58,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 单项选择器，内部由多个 radio 组成

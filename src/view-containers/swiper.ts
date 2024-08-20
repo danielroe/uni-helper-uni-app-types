@@ -281,7 +281,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /**
      * 滑块视图容器，一般用于左右滑动或上下滑动，比如 banner 轮播图

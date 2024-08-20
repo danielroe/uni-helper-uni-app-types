@@ -106,7 +106,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 激励视频广告 */
     AdRewardedVideo: _AdRewardedVideo;

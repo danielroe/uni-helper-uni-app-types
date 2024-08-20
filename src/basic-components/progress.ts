@@ -130,7 +130,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 进度条 */
     Progress: _Progress;

@@ -554,7 +554,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** 从底部弹起的滚动选择器，通过 mode 来区分 */
     Picker: _Picker;

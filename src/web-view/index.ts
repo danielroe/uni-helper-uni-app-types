@@ -93,7 +93,7 @@ declare global {
   }
 }
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     /** Web 浏览器组件，可承载网页 */
     WebView: _WebView;
